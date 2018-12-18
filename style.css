@@ -1,16 +1,19 @@
+.wrapper {
+    display: block;
+}
 .inner {
     display: block;
-  margin-left: 26%;
-  height:233px;
-  margin-top:200px
+    margin-left: 26%;
+    height:233px;
+    margin-top:200px
 }
 .inner img {
     display: block;
-    margin-left: 22%;
+    margin-left: 12%;
 }
 .button {
     display: block;
-  margin-left: auto;
+  margin-left: 81px;
   margin-right: auto;
   width: 40%;
 }
@@ -53,3 +56,23 @@ input[type="submit"]:hover {
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     color: #222;
 }
+/*Menu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  
+  li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #000;
+  }
